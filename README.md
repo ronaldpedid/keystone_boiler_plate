@@ -4,7 +4,10 @@ https://keystonejs.com/getting-started/setting-up/part-1
 
 Find More information at https://keystonejs.com/documentation
 
-After you clone just run npm install and then use the command nodemon keystone.js
+Steps to Run:
+
+Make sure you have mongodo running on it's default port.
+Run npm install and then use the command nodemon keystone.js
 
 To access the dashboard go to 0.0.0.0:3000/keystone
 

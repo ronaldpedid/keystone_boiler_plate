@@ -23,7 +23,7 @@ keystone.init({
   }).engine,
   'sass': 'public',
   'static': 'public',
-  'cloudinary config': 'cloudinary://663181556596997:NfJxN9tJPomoksQjBqqa6HMSdKk@the-sage-mages'
+  'cloudinary config': 'cloudinary://954311882999296:uqt-2Pk8EeWWq-rbfDoafSx2bzo@dkizmanfu'
 });
 
 //set a custom port 

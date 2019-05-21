@@ -11,9 +11,9 @@ Make sure you have mongod running on it's default port.
 Run npm install and then use the command - npm run cms || nodemon keystone.js
 
 *Navigable Routes 
-'/'
-'/addPost'
-'/keystone'
+- '/'
+- '/addPost'
+- '/keystone'
 
 To access the dashboard go to 0.0.0.0:3000/keystone
 

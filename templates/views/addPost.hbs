@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="/public/index.scss">
+  <title>Add Post</title>
+
+</head>
+
+<body>
+  {{#if enquirySubmitted}}
+  <h3>Your Post has been submitted</h3>
+  {{/if}}
+  <section class="container">
+    <div class="row">
+      <form method="post" action="/api/post">
+        <input type='hidden' name='action'>
+        <div class="form--group">
+          <label for="title">Post Title</label>
+          <input type="text" name="title" />
+        </div>
+        <div class="form--group">
+          <label for="author">By</label>
+          <input type="text" name="author" />
+        </div>
+        <div class="form--group">
+          <label for="body">Post Content</label>
+          <textarea type="text" name="body" placeholder="Your content" rows=6></textarea>
+        </div>
+        <div class="form--group">
+          <label for="headerImgUrl">Header Image</label>
+          <input type="text" name="headerImgUrl" />
+        </div>
+        <div class="form--group">
+          <label for="published">Post Title</label>
+          <input type="text" name="published" />
+        </div>
+        <div class="form--group">
+          <label for="publishedDate"></label>
+          <input type="hidden" name="publishedDate" />
+        </div>
+        <div class="form--actions">
+          <button class="btn" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</body>
+
+</html>

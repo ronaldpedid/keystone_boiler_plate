@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  border: 1px solid red;
+}
+
+.row{
+  flex-direction: column;
+}
+
+.form--group{
+  flex-direction: row;
+}

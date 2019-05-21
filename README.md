@@ -6,7 +6,7 @@ Find More information at https://keystonejs.com/documentation
 
 Steps to Run:
 
-Make sure you have mongodo running on it's default port.
+Make sure you have mongod running on it's default port.
 Run npm install and then use the command nodemon keystone.js
 
 To access the dashboard go to 0.0.0.0:3000/keystone
